@@ -20,3 +20,8 @@ pradejo siusti faila, issiunte uzklausa ir t.t g.b daug bet pgr apie 8
 
 
 */
+
+console.log('labas ka tu?');
+console.log("labas, ka tu?");
+console.log('man yra', 99, 'metai');
+console.log(486545);
