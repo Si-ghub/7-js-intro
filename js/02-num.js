@@ -5,6 +5,8 @@ teigiami, neigiami
 desimtainiai, sveikieji
 tikri skaiciai, begalybes (teigiamos neigiamos), NaN
 
+*/
+
 const teigiamas = 5;
 const neigiamas = -8;
 const nulis = 0;
@@ -26,4 +28,3 @@ console.log(puseZodzio);
 
 
 
-*/
