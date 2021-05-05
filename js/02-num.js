@@ -24,7 +24,18 @@ console.log(nesamone);
 const puseZodzio = 'labas' / 2;
 console.log(puseZodzio);
 
+const a = 5;
+const b = 8;
+const c = 4;
+const d = a + b * c;
+console.log(a, b, c, d);
 
+
+console.log('---------------------')
+const sin30 = Math.sin(angle / 180 * Math.PI);
+console.log(sin30);
+
+console.log(Math.sqrt(81));
 
 
 

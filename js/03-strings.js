@@ -58,7 +58,7 @@ const HTML = '<header>\n\
                 </nav>\n\
               </header>';
 
-console.log(HTML);
+console.log(HTML);     
 
 const H2 = `<header>
                 <img src="${imgSrc}" alt="logo" class="logo">
