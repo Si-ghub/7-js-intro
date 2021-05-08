@@ -58,3 +58,6 @@ console.log(a12);
 
 const modern1 = [...a2, ...a1];
 console.log(modern2);
+
+const modern2 = [...a2, ...a1];
+console.log(modern2);
