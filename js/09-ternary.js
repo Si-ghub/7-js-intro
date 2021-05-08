@@ -32,7 +32,7 @@ Nestintas ternary
 */
 
 const color = 'blue';
-const light = true;
+const light = false;
 
 const x1 = color === 'blue' ? light ? 'Sviesiai melyna' : 'Tamsiai melyna' : color === 'red' ? 'Raudona' : 'Nezinoma spalva';
 
