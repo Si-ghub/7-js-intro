@@ -59,7 +59,7 @@ if (day === 1 || day === 2 || day === 3 || day === 4 || day === 5) {
     console.log('Neatpazinta savaites diena');
 }
 
-if (day >= 0 && day < 6) {
+if (day >= 0 && day < 6) {           // tik sis variantas gali tenkinti 2.5 (nezinau ar vartojama dienom 2.5 ar tik apvalus skaicius)
     console.log('Darbo diena');
 } else if (day >= 6 && day < 7) {
     console.log('Savaitgalis');

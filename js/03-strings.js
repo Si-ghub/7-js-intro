@@ -15,11 +15,11 @@ console.log(kabutes1);
 console.log(kabutes2);
 
 // Viengubos kabutes (').
-const kabutes21 = "Viengubos (') kabutes.";
+const kabutes21 = 'Viengubos kabutes.';
 console.log(kabutes21);
 
 // Dvigubos kabutes (").
-const kabutes12 = 'Dvigubos kabutes.';
+const kabutes12 = "Dvigubos kabutes.";
 console.log(kabutes12);
 
 // Viengubos (') ir dvigubos (") kabutes.
@@ -37,7 +37,7 @@ const vardas = 'Vardenis';
 const pavarde = 'Pavardenis';
 
 //Vardenis Pavardenis
-const fullName = vardas + '' + pavarde;
+const fullName = vardas + ' ' + pavarde;
 console.log(fullName);
 
 //Sveiki, as esu Vardenis!
@@ -73,4 +73,4 @@ console.log(H2);
 
 const demo = 'asd ${imgSrc} asd';
 console.log(demo);
-                I
+                

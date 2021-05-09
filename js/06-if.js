@@ -8,7 +8,7 @@ OPERATORIAI:
 === (ar lugu?), !===(nelygu)
 
 
-== (nenaudojam), != (nenaudojam)
+== (nenaudojam), != (nenaudojam)   // NENAUDOJAM!
 
 ŠABLONAI:
 if () {}
@@ -21,15 +21,15 @@ Jei nesutampa tipai, nera logikos, pirmiausiai turi sutapti tipai.
 */
 
 const a = 'labas';
-const b = 'Labas';
+const b = 'Labas'; 
 
 if (a == b) {
-    console.log('taip');
+    console.log('taip');     // jei netenkina pirmos salygos automatiskai eina i antra
 } else { 
-    console.log('ne');
+    console.log('ne');      // jei didzioji raide, reiskia nesutampa
 }
 
-const akys = 'melynos';
+const akys = 'hhh';        // jei netenkina nei vieno is if, bus else
 
 if (akys === 'melynos') {
     console.log('Melynakis');
@@ -42,17 +42,17 @@ if (akys === 'melynos') {
 }
 
 
-const plaukai = 'rudos';
+const plaukai = 'melyni';
 
-if (plaukai === 'melynos') {
+if (plaukai === 'melyni') {
     console.log('Melynaplaukis');
 }
 
-if (plaukai === 'zalios') {
+if (plaukai === 'zali') {
     console.log('Zaliaplaukis');
 }
 
-if (plaukai === 'rudos') {
+if (plaukai === 'rudi') {
     console.log('Rudaplaukis');
 } else {
     console.log('Plauku spalva nera ruda... 🤔');
@@ -91,25 +91,25 @@ if (parosMetas === 'rytas') {
 
 console.log ('-----------------------');
 
-const rajonas = 'naujamiestis'
-const arVilnius = true;
+const rajonas = 'fabijoniskes'
+const arVilnius = false;
 
 if (rajonas === 'naujamiestis') {
     if (arVilnius) {
-        console.log('Vykti su dviraciu');
+        console.log('Vaziuoti su dviraciu');
     } else {
-        console.log('vykti');
+        console.log('Vaziuoti automobiliu');
     }
 }else {
     if (rajonas === 'senamiestis') {
-        if (vilnius) {
+        if (arVilnius) {
             console.log('Eiti pesciomis');
         } else {
-            console.log('vykti');
+            console.log('Vaziuoti automobiliu');
         } 
     } else {
         if (rajonas === 'fabijoniskes') {
-            if (vilnius) {
+            if (arVilnius) {
             console.log('Vykti automobiliu');
         } else {
             console.log('ne vykti dabar');

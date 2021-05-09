@@ -21,13 +21,13 @@ console.log(alternuojantiSuma);
 
 console.log('------------------');
 
-const d = [s1, w2, w3];
+const d = [s1, w2, w3];  // stringas ir skaicius
 console.log(d);
 
-const sakinys3 = d[2] + ', ' + d[1] + ', ' + d[0];
+const sakinys3 = d[2] + ', ' + d[1] + ', ' + d[0]; // reiksmes imammos is const d atitinkamai d[0] yra 5
 console.log(sakinys3);
 
-const sakinys4 = `${d[2]}, ${d[1]}, ${d[0]}`;
+const sakinys4 = `${d[2]}, ${d[1]}, ${d[0]}`;  // const d, butinai tik su ` `
 console.log(sakinys4);
 
 console.log('--------------------');

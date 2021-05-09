@@ -22,9 +22,9 @@ console.log('pirmas:', firstMark);
 console.log('antras:', second);
 console.log('paskutinis:', last);
 
-const dictionary = ['labas', 'rytas', 'sakau', 'tau', 🛵]
+const dictionary = ['labas', 'rytas', 'sakau', 'tau']
 
-const paskutinisZodis = dictionary[dictionary.lenght - 1];
+const paskutinisZodis = dictionary[dictionary.length - 1];
 console.log(paskutinisZodis);
 
 console.log('------------------');
@@ -57,7 +57,7 @@ console.log(a2);
 console.log(a12);
 
 const modern1 = [...a2, ...a1];
-console.log(modern2);
+console.log(modern1);
 
 const modern2 = [...a2, ...a1];
 console.log(modern2);

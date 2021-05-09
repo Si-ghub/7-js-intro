@@ -21,8 +21,12 @@ console.log(begalybe, begalybeMinus);
 const nesamone = NaN;
 console.log(nesamone);
 
-const puseZodzio = 'labas' / 2;
-console.log(puseZodzio);
+const puseZodzio = 'labas' / 2;  //gali buti dalinama tik is skaiciaus, teksto dalinti negalima
+console.log(puseZodzio);     
+
+
+const puseSkaiciaus = 8 / 2;
+console.log(puseSkaiciaus);
 
 const a = 5;
 const b = 8;
@@ -32,6 +36,7 @@ console.log(a, b, c, d);
 
 
 console.log('---------------------')
+
 const sin30 = Math.sin(angle / 180 * Math.PI);
 console.log(sin30);
 
