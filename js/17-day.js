@@ -1,4 +1,4 @@
-function weekday (day){
+function weekday (day){   //kuri savaites diena
     return day % 7;
 
 }
