@@ -28,3 +28,4 @@ function flowers(pradinesGeles, reprodukcija, turimVazonai) {
     const visoGeliu = (reprodukcija + 1) * pradinesGeles;
     const reikiaVazonu = visoGeliu - turimVazonai;
     return reikia vazonu
+*/

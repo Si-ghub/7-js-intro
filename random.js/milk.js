@@ -8,12 +8,15 @@ UZDUOTIS:
 */
 
 function milk(uzsakymai, porcija, pienoIsKarves) {
-    // validation
+    // validation  minimum 3 stepai
     if (typeof uzsakymai === 'undefined') {
         return 'ERROR: neduotas pirmasis parametras';
     }
     if (typeof uzsakymai !== 'number') {
         return 'ERROR: pirmas parametras turi buti skaicius';
+    }
+    if (isNaN(uzsakymai)===true) {
+        return 'Error: pirmas parametras negali buti NaN'
     }
     if (uzsakymai < 0) {
         return 'ERROR: pirmas parametras negali buti neigiamas';
@@ -27,6 +30,10 @@ function milk(uzsakymai, porcija, pienoIsKarves) {
     }
     if (typeof porcija !== 'number') {
         return 'ERROR: antras parametras turi buti skaicius';
+    }
+
+    if(isNaN(porcija)===true) {
+        return false
     }
     if (porcija < 0) {
         return 'ERROR: antras parametras negali buti neigiamas';
@@ -64,10 +71,18 @@ console.log(milk(2.5, 0.5, 9));
 console.log(milk(10, 0.5, 9), '->', 1);
 console.log(milk(100, 0.5, 9), '->', 6);
 
-console.log(milk(NaN, 0.5, 9));
+console.log(milk(NaN, 0.5, 9));   // naudoti isNaN fukcija kuri grazian true arba false
 console.log(milk(Infinity, 0.5, 9));
 console.log(milk(10, NaN, 9), '->', 1);
 console.log(milk(100, Infinity, 9), '->', 6);
 console.log(milk(10, 0.5, NaN), '->', 1);
 console.log(milk(100, 0.5, Infinity), '->', 6);
 
+/* Suapvalinti
+
+const originalus = 0.66666;                         0.6666
+const padydintas = originalus * 10;                 6.666
+const suapvalintas = Math.floor(padydintas);        6
+const ats = suapvalintas / 10;                      0.6
+
+*/
