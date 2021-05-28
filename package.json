@@ -1,0 +1,24 @@
+{
+  "name": "7-js-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Si-ghub/7-js-intro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Si-ghub/7-js-intro/issues"
+  },
+  "homepage": "https://github.com/Si-ghub/7-js-intro#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
