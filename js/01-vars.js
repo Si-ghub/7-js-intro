@@ -8,7 +8,7 @@ var - keiciama reiksme
 
 KINTAMUJU TIPAI:
 number (skaicius)
-string (tekstas)
+string ('tekstas') arba ("string") g.b naudojama ir viengubos ir dviguvos kabutes
 boolean (logine reiksme)
 array (sarasas, masyvas, matrica)
 object (oblektas)
